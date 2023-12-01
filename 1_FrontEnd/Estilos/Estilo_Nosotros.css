@@ -1,0 +1,31 @@
+.SobreNosotros {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+}
+
+.SobreNosotros .Logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.SobreNosotros img {
+    max-width: 70%;
+    border-radius: 8px;
+}
+
+.SobreNosotros h4 {
+    color: #007bff;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.SobreNosotros p {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}

@@ -1,0 +1,114 @@
+/* Estilo para los contenedores */
+.Contenedor {
+    width: 90%; /* Ancho fijo para todos los contenedores */
+    margin: 20px auto; /* Centra el contenedor en la página */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Añade un borde sutil */
+}
+
+/* Estilo para los títulos h3 dentro de los contenedores */
+.Contenedor h3 {
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+/* Estilo para los formularios dentro de los contenedores */
+.Contenedor form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto; /* Centra horizontalmente el formulario */
+}
+
+/* Estilo para las etiquetas de los campos del formulario */
+.Contenedor label {
+    margin-bottom: 8px;
+}
+
+/* Estilo para los campos del formulario */
+.Contenedor input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para los botones dentro de los formularios */
+.Contenedor .Boton {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones al pasar el ratón sobre ellos */
+.Contenedor .Boton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los campos del formulario dentro de Form_ModificarProductoEncontrado */
+#Form_ModificarProductoEncontrado input {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para la carga de imágenes */
+.CargarImagen input {
+    display: none;
+}
+
+.CargarImagen label {
+    display: block;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco */
+    color: #007BFF; /* Texto de color azul */
+    border: 2px solid #007BFF; /* Borde de color azul */
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center; /* Centro el texto */
+}
+
+/* Estilo para la visualización previa de la imagen */
+.PrevImagen {
+    display: block;  /* Para centrar la imagen */
+    margin: auto;    /* Para centrar la imagen */
+    padding-bottom: 10px;
+    max-width: 100%;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+/* Estilo para el menú de administración */
+.MenuAdministracion {
+    background-color: #303443; /* Tono de gris claro */
+    padding: 10px;
+}
+
+.MenuAdministracion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuAdministracion li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.MenuAdministracion a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.MenuAdministracion a:hover {
+    color: #ffcc00; /* Cambiar el color del texto al pasar el ratón sobre el enlace */
+}

@@ -1,0 +1,38 @@
+#DatosContacto {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #dee2e6; /* Borde */
+    border-radius: 8px; /* Esquinas redondeadas */
+    max-width: 600px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar en la pantalla */
+}
+
+#contactForm {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el ratón sobre el botón */
+}

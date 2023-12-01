@@ -1,0 +1,39 @@
+#listaProductos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#listaProductos li {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#listaProductos li img {
+    max-width: 60%;
+    height: auto;
+}
+
+#listaProductos li h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#listaProductos li p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#listaProductos li p:last-child {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+li a {
+    text-decoration: none;
+}
