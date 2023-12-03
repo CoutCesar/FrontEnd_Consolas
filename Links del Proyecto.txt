@@ -1,0 +1,11 @@
+Repositorio de GitHub
+https://github.com/CoutCesar/PaginaConsolas
+
+Pagina FronEnd
+https://consolas-playdie.000webhostapp.com/index.html
+
+Direccion de la Api
+https://api-consolas.onrender.com/
+
+Video de YouTube
+https://www.youtube.com/watch?v=YQCNWC-afMQ
